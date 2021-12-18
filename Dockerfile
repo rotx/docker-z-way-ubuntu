@@ -18,7 +18,7 @@ RUN apt-get update && \
     apt-get install -y libmosquitto1 z-way-server && \
     apt-get clean
 
-COPY ./MQTTClient /opt/z-way-server/automation/modules/
+# COPY ./MQTTClient /opt/z-way-server/automation/modules/
 
 ENV LD_LIBRARY_PATH=/opt/z-way-server/libs
 ENV PATH=/opt/z-way-server:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin

@@ -3,7 +3,6 @@
 This repository is a fork of https://github.com/Z-Wave-Me/docker-z-way-ubuntu, with the following additions:
 * Automatic image build and publish on GitHub container registry
 * Inclusion of libmosquitto1
-* Added latest MQTTClient
 * Log output to stdout
 
 ## Pull
